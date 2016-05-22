@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.calc-wrapper {
+  width: 500px;
+}
+
+#input {
+  height: 30px;
+  border: 1px solid gray;
+}
+
+button {
+  width: 24%;
+  font-family:
+}
