@@ -1,0 +1,56 @@
+.container {
+  font-family: Helvetica;
+  padding: 40px;
+  background-color: #252525;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.key-container {
+  display: flex;
+}
+
+.key {
+  color: white;
+  background-color: #706f6f;
+  margin: 6px;
+  border-radius: 5px;
+  height: 35px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-container {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#screen {
+  height: 40px;
+  background-color: #b3bdbc;
+  margin-bottom: 40px;
+  font-family: Orbitron;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button {
+  background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

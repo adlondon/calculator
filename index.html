@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <div class="screen-container">
+          <input id="screen" name="screen"/>
+        </div>
+        <div class="keypad">
+          <div class="key-container">
+            <button value="7" onclick="handleButtonPress(this.value)" class="key">7</button>
+            <button value="8" onclick="handleButtonPress(this.value)" class="key">8</button>
+            <button value="9" onclick="handleButtonPress(this.value)" class="key">9</button>
+            <button value="÷" onclick="handleButtonPress(this.value)" class="key">÷</button>
+          </div>
+          <div class="key-container">
+            <button value="4" onclick="handleButtonPress(this.value)" class="key">4</button>
+            <button value="5" onclick="handleButtonPress(this.value)" class="key">5</button>
+            <button value="6" onclick="handleButtonPress(this.value)" class="key">6</button>
+            <button value="*" onclick="handleButtonPress(this.value)" class="key">x</button>
+          </div>
+          <div class="key-container">
+            <button value="1" onclick="handleButtonPress(this.value)" class="key">1</button>
+            <button value="2" onclick="handleButtonPress(this.value)" class="key">2</button>
+            <button value="3" onclick="handleButtonPress(this.value)" class="key">3</button>
+            <button value="-" onclick="handleButtonPress(this.value)" class="key">-</button>
+          </div>
+          <div class="key-container">
+            <button value="0" onclick="handleButtonPress(this.value)" class="key">0</button>
+            <button value="." onclick="handleButtonPress(this.value)" class="key">•</button>
+            <button value="+" onclick="handleButtonPress(this.value)" class="key">+</button>
+            <button value="=" onclick="handleButtonPress(this.value)" class="key red">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js" charset="utf-8"></script>
+</html>
